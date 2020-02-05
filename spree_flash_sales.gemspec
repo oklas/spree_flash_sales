@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<guard-zeus>, [">= 0"])
     else
       s.add_dependency(%q<spree_core>, ["~> 3.2.0"])
-      s.add_dependency(%q<draper>, ["~> 1.2.1"])
+      s.add_dependency(%q<draper>, ["~> 4.0.0"])
       s.add_dependency(%q<capybara>, ["~> 2.1"])
       s.add_dependency(%q<coffee-rails>, [">= 0"])
       s.add_dependency(%q<database_cleaner>, [">= 0"])
@@ -60,7 +60,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<spree_core>, ["~> 3.2.0"])
-    s.add_dependency(%q<draper>, ["~> 1.2.1"])
+    s.add_dependency(%q<draper>, ["~> 4.0.0"])
     s.add_dependency(%q<capybara>, ["~> 2.1"])
     s.add_dependency(%q<coffee-rails>, [">= 0"])
     s.add_dependency(%q<database_cleaner>, [">= 0"])
